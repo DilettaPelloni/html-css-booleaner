@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
 }
@@ -7,7 +11,7 @@ main {
 }
 
 .spacing {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 /* formattazione header */
@@ -81,4 +85,35 @@ th {
 
 .odd-raw {
     background-color: #b2e6f2;
+}
+
+/* formattazine suggest */
+.suggest h2 {
+    color: gray;
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.item {
+    width: 20%;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 10px;
+    padding: 15px;
+}
+
+.first-item {
+    background-image: url('../img/monitor.jpg');
+}
+
+.second-item {
+    background-image: url('../img/graph.jpg');
+}
+
+.item span {
+    color: white;
+    font-weight: bold;
+    font-size: 1.2em;
 }
